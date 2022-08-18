@@ -81,6 +81,8 @@ module.exports = {
       },
     },
     colors: {
+      'gunmetal.500': 'rgba(83, 86, 90, 1);',
+      'yellow.500': '#cdbc28',
       'white.25': 'rgba(255, 255, 255, 0.25);',
       'white.50': 'rgba(255, 255, 255, 0.50);',
       'white.75': 'rgba(255, 255, 255, 0.75);',
