@@ -1,6 +1,6 @@
 
 const navItems = [
-    {
+/*    {
         label: "UX Services",
         path: "/services",
     },
@@ -19,7 +19,7 @@ const navItems = [
     {
         label: "About",
         path: "/about",
-    }
+    }*/
 ];
 
 export default navItems

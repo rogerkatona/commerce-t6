@@ -18,7 +18,7 @@ export default function Header() {
     return (
         <header className={`${router.pathname.startsWith("/campaign/")  ? 'bg-medBlue.500' : 'bg-lightBlue.700'}`}>
             <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:mx-auto lg:max-w-7xl py-6 xl:px-0 md:px-12 px-6">
-                <section>
+{/*                <section>
                     <Link href='/'>
                         <a>
                             <div className="flex flex-row items-center ">
@@ -32,7 +32,7 @@ export default function Header() {
                             </div>
                         </a>
                     </Link>
-                </section>
+                </section>*/}
                 <div>
                     <section className="absolute lg:right-10 right-6 top-8">
                         <button

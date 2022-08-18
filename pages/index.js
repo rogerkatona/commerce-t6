@@ -30,7 +30,7 @@ export default function Home({allPostsData}) {
         <title>{siteTitle}</title>
       </Head>
         <HeroIndex/>
-        <ClientLogos/>
+{/*        <ClientLogos/>
         <Features  featured="true" type="service" subtype="ux-design"/>
         <Quote id={2}/>
         <Features  featured="true" type="workshop"/>
@@ -80,7 +80,7 @@ export default function Home({allPostsData}) {
                 </section>
             )}
       <Features  featured="true" type="about" />
-      <Promo id={2}/>
+      <Promo id={2}/>*/}
 
     </Layout>
   )

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Header from "./header";
 import Footer from "./footer";
 
-export const siteTitle = 'Roger Katona - UX leadership'
+export const siteTitle = 'Frytech'
 
 export default function Layout({ children}) {
 
@@ -19,9 +19,9 @@ export default function Layout({ children}) {
                     <meta name="og:title" content={siteTitle} key="title"/>
                     <meta name="twitter:card" content="summary_large_image" />
                 </Head>
-                <Header/>
+{/*                <Header/>*/}
                 <main>{children}</main>
-                <Footer/>
+{/*                <Footer/>*/}
             </div>
         </>
     )

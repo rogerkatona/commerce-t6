@@ -10,7 +10,7 @@ export default function Footer() {
 
     return (
         <footer className="flex flex-col justify-center md:items-center md:px-0 px-6 bg-lightBlue.800 text-white py-48 space-y-6">
-            <section>
+{/*            <section>
                 <Link href='/'>
                     <a>
                         <div className="flex flex-row items-center ">
@@ -27,7 +27,7 @@ export default function Footer() {
                         </div>
                     </a>
                 </Link>
-            </section>
+            </section>*/}
 
             <div className='flex md:flex-row flex-col'>
                 <NavBar navItems={navItems}/>
