@@ -16,7 +16,7 @@ export default function Header() {
     const {isShowing, toggle} = useModal();
 
     return (
-        <header className={`${router.pathname.startsWith("/campaign/")  ? 'bg-medBlue.500' : 'bg-lightBlue.700'}`}>
+        <header className={`${router.pathname.startsWith("/campaign/")  ? 'bg-newBlue.400' : 'bg-newBlue.400'}`}>
             <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:mx-auto lg:max-w-7xl py-6 xl:px-0 md:px-12 px-6">
 {/*                <section>
                     <Link href='/'>
@@ -33,7 +33,7 @@ export default function Header() {
                         </a>
                     </Link>
                 </section>*/}
-                <div>
+{/*                <div>
                     <section className="absolute lg:right-10 right-6 top-8">
                         <button
                             className="lg:hidden text-secondary hover:text-primary focus:appearance-none border-none"
@@ -64,7 +64,7 @@ export default function Header() {
                                 </button>
                             </Link>
                     </section>
-                </div>
+                </div>*/}
             </div>
             <section>
                 <Modal
