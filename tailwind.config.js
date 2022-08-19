@@ -30,6 +30,10 @@ module.exports = {
       width: theme => ({
         "128": "32rem",
       }),
+      fontSize: theme => ({
+        "12xl": "12rem",
+        "15xl": "15rem",
+      }),
       backgroundSize: {
         'auto': 'auto',
         'cover': 'cover',
@@ -81,8 +85,12 @@ module.exports = {
       },
     },
     colors: {
-      'gunmetal.500': 'rgba(83, 86, 90, 1);',
-      'yellow.500': '#cdbc28',
+      'newGunmetal.500': 'rgba(83, 86, 90, 1);',
+      'newYellow.500': '#cdbc28',
+      'newBlue.200': '#DFE7F2',
+      'newBlue.300': '#6782A6',
+      'newBlue.400': '#475A73',
+      'newGray.500': '#989EA6',
       'white.25': 'rgba(255, 255, 255, 0.25);',
       'white.50': 'rgba(255, 255, 255, 0.50);',
       'white.75': 'rgba(255, 255, 255, 0.75);',
