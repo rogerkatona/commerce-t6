@@ -3,7 +3,7 @@ export default function HeroIndex({ children, home }) {
     return (
         <section className="bg-newGunmetal.500">
 
- <div className="flex lg:h-screen90vh h-screen90vh  flex-col justify-center items-center mt-10">
+ <div className="flex lg:h-screen90vh h-full flex-col justify-center items-center py-24 my-12">
      <div className="lg:text-12xl text-9xl text-white.100 font-bebasNeue">FRYTECH</div>
      <div className="2xl:w-1/3 md:w-1/2 w-full xl:px-24 pt-12 px-12 lg:text-xl text-newGray.500 ">
         <p>Fry Tech specializes in the customization of GUNCAD parts and accessories to help builders perfect their 3D masterpieces. We also customize and resell parts and
