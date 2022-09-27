@@ -38,7 +38,7 @@ export default function Promo(props) {
                                 <Link href=''>
                                     <button
                                         onClick={toggle}
-                                        className="hover:bg-medRed.900 text-white.100 text-xs uppercase hover:text-gray-50 px-4 py-3 bg-medRed.500 rounded-lg">
+                                        className="bg-newYellow.500 hover:bg-newYellow.900 hover:text-gray.100 text-xs text-newGunmetal.800 uppercase px-4 py-3 rounded-lg">
                                         {filteredItem.buttonLabel}
                                     </button>
                                 </Link>

@@ -1,31 +1,29 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import Hero from "../components/hero";
-import Offerings from "../components/offerings";
-import Services from "../components/services";
+import Service from "../components/service";
 import Quote from "../components/quote";
 import Promo from "../components/promo";
 
-export default function Workshops() {
+export default function Services() {
 
     return (
         <Layout home>
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <header className="bg-hero-design min-h-screen25vh max-h-screen25vh bg-cover bg-right bg-no-repeat">
+            <header className="bg-hero-services min-h-screen25vh max-h-screen25vh bg-cover bg-right bg-no-repeat">
                 <Hero id={1}/>
             </header>
-            <Offerings type="services"/>
             <div className="text-center font-bebasNeue text-6xl text-gray.700 bg-gray.100 py-12">
-                Professional Design
+                Services
             </div>
-            <Services type="service" subtype="ux-design"/>
-            <Quote id={2}/>
+            <Service type="service" subtype="services"/>
+            <Quote id={0}/>
             <div className="text-center font-bebasNeue text-6xl text-gray.700 bg-gray.100 py-12">
-                Usability Analysis
+                Customization
             </div>
-            <Services type="service" subtype="ux-analysis"/>
+            <Service type="service" subtype="customization"/>
             <Promo id={0}/>
 
         </Layout>

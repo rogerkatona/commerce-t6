@@ -1,25 +1,17 @@
 
 const navItems = [
-/*    {
-        label: "UX Services",
+   {
+        label: "Services & Customization",
         path: "/services",
     },
     {
-        label: "Workshops",
-        path: "/workshops",
-    },
-    {
-        label: "Clients",
-        path: "/clients",
-    },
-    {
-        label: "Blog",
-        path: '/blog',
+        label: "Technology & Patent",
+        path: "/technology",
     },
     {
         label: "About",
         path: "/about",
-    }*/
+    }
 ];
 
 export default navItems

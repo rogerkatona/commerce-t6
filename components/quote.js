@@ -17,20 +17,11 @@ export default function Quote(props) {
                         key={filteredItem.id}
                         className="flex flex-row max-w-7xl mx-auto xl:px-0 px-6 pb-12">
 
-                        <section className={`mt-20  max-w-7xl mx-auto ${filteredItem.id % 2 === 0  ? 'bg-darkBlue.50' : 'bg-darkBlue.50'}`}>
-                            <div className="flex flex-col justify-center items-center md:px-12 px-6 py-12 pt-6 relative">
-                                <div className='flex flex-shrink-0 absolute -top-10'>
-                                    <img
-                                        src={filteredItem.src}
-                                        height={82}
-                                        width={82}
-                                        alt={'simple quote graphic'}
-                                    />
-                                </div>
+                        <section className={`max-w-7xl mx-auto w-3/4 ${filteredItem.id % 2 === 0  ? 'bg-white.100' : 'bg-white.100'}`}>
+                            <div className="flex flex-col justify-center items-center ">
                                 <div className="flex flex-col pt-12 text-darkBlue.700">
-                                    <div className="">&quot;{filteredItem.text}&quot;</div>
-                                    <div className="font-bold text-lg mt-2"> {filteredItem.author}</div>
-                                    <div className="font-light text-sm"> {filteredItem.title}</div>
+                                    <div className="text-center font-light text-xl">&quot;{filteredItem.text}&quot;</div>
+                                    <div className="text-center font-light text-lg pt-3"> - {filteredItem.author}, {filteredItem.title}</div>
                                 </div>
                             </div>
                         </section>

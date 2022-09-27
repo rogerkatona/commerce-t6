@@ -1,7 +1,7 @@
 import serviceItems from "../data/serviceItems";
 import Link from "next/link";
 
-export default function Services(props) {
+export default function Service(props) {
 
     let filteredItem = serviceItems.filter(function (item){
         return item.type === props.type
@@ -9,13 +9,13 @@ export default function Services(props) {
 
     return (
         <>
-                <section className="flex flex-col md:px-6 px-6 py-12 pt-6 bg-gray.050 ">
+                <section className="flex flex-col md:px-6 px-6 py-12 pt-6 bg-newGunmetal.050">
                     {filteredItem
-                        .filter(filteredItem => filteredItem.subtype === props.subtype)
+                        .filter(filteredItem => filteredItem.subtype === props.subtype && filteredItem.featured === "false")
                         .map(filteredItem => (
                             <div
                                 key={filteredItem.id}
-                                className={`flex lg:flex-row flex-col  md:space-y-12  space-y-6 max-w-7xl mx-auto  ${filteredItem.id % 2 === 0  ? 'lg:flex-row-reverse ' : ''}`}>
+                                className={`flex lg:flex-row flex-col  md:space-y-12  space-y-6 max-w-7xl mx-auto  ${filteredItem.id % 2 === 0  ? 'lg:flex-row-reverse ' : 'lg:flex-row'}`}>
 
                                 <div className="pt-12">
                                     <img
@@ -29,9 +29,11 @@ export default function Services(props) {
                                     <div className='font-bebasNeue text-4xl text-gray.400 font-light border-b'>{filteredItem.number}</div>
                                     <div className='text-2xl text-gray.700 pt-4'>{filteredItem.title}</div>
                                     <p className="pt-2">{filteredItem.description}</p>
-                                    <div className={`${filteredItem.isButtonActive === 'true'  ? 'block' : 'hidden'} pt-4`}>
+                                    <p className="pt-2">{filteredItem.actionDescription}</p>
+                                    <div className={`${filteredItem.isButtonActive === 'true'  ? 'block' : 'hidden'} pt-0`}>
                                         <Link href={filteredItem.buttonHref}>
-                                            <button className="hover:bg-rust.800 hover:text-white.100 text-xs text-rust.700 uppercase px-4 py-3 border border-rust.500 rounded-lg">
+                                            <button
+                                                className="bg-newYellow.500 hover:bg-newYellow.900 hover:text-gray.100 text-xs text-newGunmetal.800 uppercase px-4 py-3 rounded-lg">
                                                 {filteredItem.buttonText}
                                             </button>
                                         </Link>

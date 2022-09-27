@@ -20,7 +20,7 @@ export default function About() {
             </Head>
 
             <div className="bg-hero-about min-h-screen20vh max-h-screen20vh bg-cover bg-right bg-no-repeat">
-                <Hero id={5}/>
+                <Hero id={3}/>
             </div>
 
             <section className="max-w-7xl mx-auto pt-12">
@@ -34,8 +34,8 @@ export default function About() {
                             <div className=''>
                                 <img
                                     src={filteredItem.src}
-                                    width={1000}
-                                    alt={'Roger Katona - About'}
+                                    width={800}
+                                    alt={'FryTech'}
                                 />
                             </div>
 
@@ -49,7 +49,7 @@ export default function About() {
              </section>
 
             <div className="bg-gray.050 -mt-12 ">
-                <Promo id={1}/>
+                <Promo id={0}/>
             </div>
 
         </Layout>

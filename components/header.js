@@ -16,24 +16,24 @@ export default function Header() {
     const {isShowing, toggle} = useModal();
 
     return (
-        <header className={`${router.pathname.startsWith("/campaign/")  ? 'bg-newBlue.400' : 'bg-newBlue.400'}`}>
+        <header className={`${router.pathname.startsWith("/campaign/")  ? 'bg-newYellow.500' : 'bg-newYellow.500'}`}>
             <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:mx-auto lg:max-w-7xl py-6 xl:px-0 md:px-12 px-6">
-{/*                <section>
+            <section>
                     <Link href='/'>
                         <a>
-                            <div className="flex flex-row items-center ">
+                            <div className="flex flex-row items-center">
                                 <div className="">
                                     <img
-                                        src="/image/logo/rogerkatona-simple.png"
+                                        src="/image/logo/logoName-fryTech.png"
                                         width={200}
-                                        alt="Roger Katona - Logo"
+                                        alt="Frytech - Logo"
                                     />
                                 </div>
                             </div>
                         </a>
                     </Link>
-                </section>*/}
-{/*                <div>
+                </section>
+             <div>
                     <section className="absolute lg:right-10 right-6 top-8">
                         <button
                             className="lg:hidden text-secondary hover:text-primary focus:appearance-none border-none"
@@ -59,12 +59,12 @@ export default function Header() {
                              <Link href=''>
                                 <button
                                     onClick={toggle}
-                                    className="text-xs text-medBlue.500 uppercase px-3 py-2 lg:ml-3 lg:mt-0 mt-6 rounded-lg bg-tan.100 hover:bg-tan.500 hover:text-medBlue.500">
+                                    className="text-xs text-newGray.700 hover:text-gray.050 uppercase pl-3">
                                     Contact
                                 </button>
                             </Link>
                     </section>
-                </div>*/}
+                </div>
             </div>
             <section>
                 <Modal

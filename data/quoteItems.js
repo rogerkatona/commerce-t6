@@ -1,9 +1,9 @@
 const quoteItems = [
     {
         id:0,
-        text: "Roger is the most talented UX/UI specialist I have ever worked with. His real gift is in being able to make a software application's user interface easy to use while simultaneously filling the business needs at hand.",
-        author: "Jimmy Hurff",
-        title: 'Senior VP, GHX',
+        text: "Fry Tech is a true alchemist! Ryan is a great designer and innovative gun maker. Fry Tech is the future and the future is Brujeria!",
+        author: "Sabr",
+        title: 'Sabrprints',
         src: '/image/icon/quote-image.svg',
     },
     {

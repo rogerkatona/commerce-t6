@@ -1,31 +1,29 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import Hero from "../components/hero";
-import Offerings from "../components/offerings";
-import Services from "../components/services";
+import Service from "../components/service";
 import Quote from "../components/quote";
 import Promo from "../components/promo";
 
-export default function Workshops() {
+export default function Technology() {
 
     return (
         <Layout home>
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <header className="bg-hero-workshop min-h-screen50vh max-h-screen50vh bg-cover bg-left bg-no-repeat">
+            <header className="bg-hero-technology min-h-screen50vh max-h-screen50vh bg-cover bg-left bg-no-repeat">
                 <Hero id={2}/>
             </header>
-            <Offerings type="workshops"/>
             <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.100 py-12">
-                In-Person Workshop
+                Technology
             </div>
-            <Services type="workshop" subtype="in-person"/>
+            <Service type="technology" subtype="technology"/>
             <Quote id={3}/>
             <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.100 py-12">
-                Virtual Workshop
+                Patents
             </div>
-            <Services type="workshop" subtype="virtual"/>
+            <Service type="technology" subtype="patent"/>
             <Promo id={1}/>
         </Layout>
     )

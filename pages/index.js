@@ -30,12 +30,13 @@ export default function Home({allPostsData}) {
         <title>{siteTitle}</title>
       </Head>
         <HeroIndex/>
-{/*        <ClientLogos/>
-        <Features  featured="true" type="service" subtype="ux-design"/>
-        <Quote id={2}/>
-        <Features  featured="true" type="workshop"/>
-        <Features  featured="true" type="client" />
+        <Quote id={0}/>
+        <Features  featured="true" type="technology"/>
+        <Promo id={0} />
+        <Features  featured="true" type="service"/>
+      <Promo id={1}/>
 
+      {/*
       {
         featuredPosts
             .filter(featured => featured.type === 'blog')
@@ -80,7 +81,7 @@ export default function Home({allPostsData}) {
                 </section>
             )}
       <Features  featured="true" type="about" />
-      <Promo id={2}/>*/}
+      */}
 
     </Layout>
   )
