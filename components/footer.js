@@ -9,8 +9,8 @@ export default function Footer() {
     const {isShowing, toggle} = useModal();
 
     return (
-        <footer className="flex flex-col justify-center md:items-center md:px-0 px-6 bg-gray.800 text-white py-48 space-y-6">
-{/*            <section>
+        <footer className="flex flex-col justify-center md:items-center md:px-0 px-6 bg-medBlue.900 py-48 space-y-6">
+         <section>
                 <Link href='/'>
                     <a>
                         <div className="flex flex-row items-center ">
@@ -18,7 +18,7 @@ export default function Footer() {
                                 href='/'>
                                 <a>
                                     <img
-                                        src="/image/logo/rogerkatona-simple.png"
+                                        src="/image/logo/logoName-fryTech.png"
                                         width={200}
                                         alt='Blue Prospect Logo'
                                     />
@@ -27,7 +27,7 @@ export default function Footer() {
                         </div>
                     </a>
                 </Link>
-            </section>*/}
+            </section>
 
             <div className='flex md:flex-row flex-col'>
                 <NavBar navItems={navItems}/>

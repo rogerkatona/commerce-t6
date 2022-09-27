@@ -18,9 +18,9 @@ export default function Promo(props) {
                 .map(filteredItem => (
                     <div
                         key={filteredItem.id}
-                        className="flex flex-row  max-w-7xl mx-auto ">
+                        className="flex flex-row bg-newGunmetal.100">
 
-                        <section className="flex flex-col md:px-0 px-6 py-12 lg:mx-auto lg:max-w-7xl">
+                        <section className="flex flex-col xl:px-0 px-12 py-16 lg:mx-auto lg:max-w-7xl">
 
                             <div className="font-bebasNeue text-3xl text-gray.700 pb-4">{filteredItem.headline}</div>
 
@@ -38,7 +38,7 @@ export default function Promo(props) {
                                 <Link href=''>
                                     <button
                                         onClick={toggle}
-                                        className="bg-newYellow.500 hover:bg-newYellow.900 hover:text-gray.100 text-xs text-newGunmetal.800 uppercase px-4 py-3 rounded-lg">
+                                        className="bg-newYellow.700 hover:bg-newYellow.900 hover:text-gray.100 text-xs text-newGunmetal.900 uppercase px-4 py-3 rounded-lg">
                                         {filteredItem.buttonLabel}
                                     </button>
                                 </Link>

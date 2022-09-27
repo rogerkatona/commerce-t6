@@ -34,14 +34,14 @@ export default function Header() {
                     </Link>
                 </section>
              <div>
-                    <section className="absolute lg:right-10 right-6 top-8">
+                    <section className="absolute lg:right-10 right-8 top-6">
                         <button
                             className="lg:hidden text-secondary hover:text-primary focus:appearance-none border-none"
                             onClick={handleClick}>
                             <svg
                                 className='w-6 h-6 '
                                 fill='none'
-                                stroke='#FFFFFF'
+                                stroke='#424548'
                                 viewBox='0 0 24 24'
                                 xmlns='http://www.w3.org/2000/svg'
                             >
@@ -59,7 +59,7 @@ export default function Header() {
                              <Link href=''>
                                 <button
                                     onClick={toggle}
-                                    className="text-xs text-newGray.700 hover:text-gray.050 uppercase pl-3">
+                                    className="bg-newGunmetal.500 hover:bg-newGunmetal.800 hover:text-newYellow.200 text-xs text-newYellow.500 uppercase px-4 py-3 rounded-lg md:ml-3 md:mt-0 mt-6">
                                     Contact
                                 </button>
                             </Link>

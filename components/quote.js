@@ -15,11 +15,11 @@ export default function Quote(props) {
                 .map(filteredItem => (
                     <div
                         key={filteredItem.id}
-                        className="flex flex-row max-w-7xl mx-auto xl:px-0 px-6 pb-12">
+                        className="flex flex-row max-w-7xl mx-auto md:px-0 px-6 py-16">
 
-                        <section className={`max-w-7xl mx-auto w-3/4 ${filteredItem.id % 2 === 0  ? 'bg-white.100' : 'bg-white.100'}`}>
+                        <section className={`max-w-7xl mx-auto md:w-2/4 ${filteredItem.id % 2 === 0  ? 'bg-white.100' : 'bg-white.100'}`}>
                             <div className="flex flex-col justify-center items-center ">
-                                <div className="flex flex-col pt-12 text-darkBlue.700">
+                                <div className="flex flex-col  text-darkBlue.700">
                                     <div className="text-center font-light text-xl">&quot;{filteredItem.text}&quot;</div>
                                     <div className="text-center font-light text-lg pt-3"> - {filteredItem.author}, {filteredItem.title}</div>
                                 </div>

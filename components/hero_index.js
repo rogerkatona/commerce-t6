@@ -2,22 +2,22 @@
 export default function HeroIndex({ children, home }) {
     return (
         <section className="bg-gray.800">
-            <div className="flex lg:h-screen90vh h-full lg:mx-auto lg:max-w-7xl flex-row lg:justify-between items-center">
+            <div className="flex lg:flex-row flex-col-reverse lg:justify-between lg:items-center lg:mx-auto lg:max-w-7xl lg:h-screen90vh py-6 md:px-0 px-6">
 
                 <div className="">
-                    <div className="mb-4">
+                    <div className="mb-4 md:block hidden">
                         <img
                             src="/image/logo/logoName-fryTech.png"
                             width={400}
                             alt="Frytech - Logo"
                         />
                     </div>
-                    <div className="text-gray.400 text-xl font-light leading-relaxed w-128">
+                    <div className="text-gray.400 text-xl font-light leading-relaxed md:w-128">
                         Specializes in the customization of GUNCAD parts and accessories to help builders perfect their 3D masterpieces. We also customize and resell parts and
                         kits from other GUNCAD manufacturers and provide only the highest quality parts.
                     </div>
                 </div>
-                <div className="">
+                <div className="lg:mb-0 mb-6 flex justify-center items-center">
                     <div className="">
                         <img
                             src="/image/logo/logoGraphic-fryTech.png"

@@ -16,28 +16,18 @@ export default function Features(props) {
 
                         <section
                             key={filteredItem.id}
-                            className={`md:px-12 px-6 py-12 ${filteredItem.featuredID % 2 !== 0  ? 'bg-gray.600' : 'bg-gray.100'}`}>
+                            className="md:px-12 px-6 py-16 bg-gray.800">
 
-                            <div className="flex flex-col-reverse max-w-7xl mx-auto">
+                            <div className={`flex flex-col max-w-7xl mx-auto ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                                 <div className=' '>
                                     <img
                                         src={filteredItem.src}
-                                        width={1500}
+                                        width={1750}
                                         alt={'Featured Article'}
                                     />
                                 </div>
-                                <div className={`lg:pt-0 pt-6 flex flex-row ${filteredItem.featuredID % 2 !== 0  ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
-
-                                    <div className={`mb-3  ${filteredItem.featuredID % 2 !== 0  ? 'lg:mr-3' : 'lg:ml-3'}`}>
-                                        <img
-                                            src={filteredItem.srcThumbnail}
-                                            width={300}
-
-                                            alt={'Featured Article'}
-                                        />
-                                    </div>
-
-                                    <div className='bg-gray.800 p-6 mb-3'>
+                                <div className={`lg:pt-0 pt-6 ${filteredItem.featuredID % 2 !== 0  ? 'md:pl-6' : 'md:pr-6'}`}>
+                                    <div className="mb-3">
                                         <div className='text-gray.100 '>
                                             <Link href={filteredItem.featuredHREF}>
                                                 <a className='hover:underline uppercase text-xs'>{filteredItem.featuredURL}</a>
