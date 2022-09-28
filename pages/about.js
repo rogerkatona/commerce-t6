@@ -23,7 +23,7 @@ export default function About() {
                 <Hero id={3}/>
             </div>
 
-            <section className="max-w-7xl mx-auto pt-12">
+            <section className="max-w-7xl mx-auto py-16">
                 {filteredItem
                     .map(filteredItem => (
 

@@ -1,6 +1,5 @@
 import serviceItems from "../data/serviceItems";
 import Link from "next/link";
-import Date from "./date";
 
 export default function Features(props) {
 
@@ -41,7 +40,9 @@ export default function Features(props) {
                                         <div className='text-gray.400 pb-6'>{filteredItem.description}</div>
                                         <div className="flex flex-row">
                                             <div className={`${filteredItem.isButtonActive === 'true'  ? 'block' : 'hidden'}  pr-2`}>
-                                                <a href={filteredItem.buttonHref}>
+                                                <a
+                                                    target={"_blank"}
+                                                    href={filteredItem.buttonHref}>
                                                     <button className="hover:bg-newYellow.500 hover:text-newGray.700 text-xs text-newYellow.500 uppercase px-4 py-3 border border-rust.500 rounded-lg">
                                                         {filteredItem.buttonText}
                                                     </button>

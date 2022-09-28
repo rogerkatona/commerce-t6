@@ -36,7 +36,7 @@ export default function Footer() {
                 <Link href=''>
                     <button
                         onClick={toggle}
-                        className="hover:bg-rust.800 hover:text-white.100 hover:border-rust.800 text-xs text-gray.200 uppercase px-3 py-2  border border-gray.200 rounded-lg">
+                        className="hover:bg-rust.800 hover:text-white.100 hover:border-newGunmetal.300 text-xs text-newGunmetal.500 uppercase px-3 py-2  border border-newGunmetal.500 rounded-lg">
                         Contact
                     </button>
                 </Link>
