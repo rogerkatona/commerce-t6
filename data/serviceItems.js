@@ -99,7 +99,7 @@ const serviceItems = [
         src: '/image/patent-01.jpg',
         srcThumbnail: '/image/patent-01.jpg',
         isButtonActive:'true',
-        buttonText:'Download Patent',
+        buttonText:'View Patent',
         buttonHref:'/pdf/9470-0100 Vanaken PPA Spec and Figs.pdf',
     },
     {
