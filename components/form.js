@@ -55,7 +55,7 @@ export const Form = ({ initialRef}) => {
                     if (res.status === 200) {
                         setToastMessage({message:(
                                 <div className={`${router.pathname.startsWith("/campaign/")  ? 'hidden' : 'block'} absolute bottom-0 text-white.100 -mb-10`}>
-                                    Thank you for reaching out to me.  I&apos;ll respond to you shortly!  Have a great day.
+                                    Thank you for reaching out to us.  We&apos;ll respond to you shortly!  Have a great day.
                                 </div>
                             )});
                         clearFormState();
@@ -121,7 +121,7 @@ export const Form = ({ initialRef}) => {
                     <div className="">
                         <label
                             className={`${router.pathname.startsWith("/campaign/")  ? 'text-darkBlue.700' : 'text-white.100'} uppercase tracking-wide text-xs`}>
-                            Anything else?
+                            Comments?
                         </label>
                         <div>
                         <textarea
