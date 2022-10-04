@@ -46,13 +46,13 @@ export const Form = ({ initialRef}) => {
             body
         };
 
-        const { name, email, contactMessage} = formState
-        const { message } = toastMessage
+        const { name, email} = formState
+
         if (name && email) {
             try {
                 fetch(endpoint, requestOptions)
                     .then((res) => {
-                    if (res.status === 200) {
+                    if (res.status === 200 || 500) {
                         setToastMessage({message:(
                                 <div className={`${router.pathname.startsWith("/campaign/")  ? 'hidden' : 'block'} absolute bottom-0 text-white.100 -mb-10`}>
                                     Thank you for reaching out to us.  We&apos;ll respond to you shortly!  Have a great day.
