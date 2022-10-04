@@ -31,7 +31,7 @@ export const Form = ({ initialRef}) => {
             setCampaignState(true)
         }
 
-        const location = campaignState === true ? 'campaign-usAudit-blueprospect.com' : 'blueprospect.com'
+        const location = campaignState === true ? 'campaign-usAudit-blueprospect.com' : ' FryTech website contact form'
         const endpoint =
             "https://ke37371vfe.execute-api.us-east-1.amazonaws.com/default/sendContactEmailFryTech";
         // We use JSON.stringify here so the data can be sent as a string via HTTP
