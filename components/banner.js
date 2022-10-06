@@ -39,14 +39,14 @@ export default function Banner(props) {
                                             <a
                                                 target={"_blank"}
                                                 href={filteredItem.buttonHref}>
-                                                <button className="hover:bg-newGunmetal.50 hover:text-newGray.700 text-xs text-newGunmetal.700 uppercase px-4 py-3 border border-newGunmetal.500 rounded-lg">
+                                                <button className="hover:bg-newGunmetal.800 hover:text-newGunmetal.50 text-xs text-newGunmetal.700 uppercase px-4 py-3 border border-newGunmetal.500 rounded-lg">
                                                     {filteredItem.buttonText}
                                                 </button>
                                             </a>
                                         </div>
                                         <div className="">
                                             <Link href={filteredItem.featuredHREF}>
-                                                <button className="hover:bg-newGunmetal.50 hover:text-newGray.700 text-xs text-newGunmetal.700 uppercase px-4 py-3 border border-newGunmetal.500 rounded-lg">
+                                                <button className="hover:bg-newGunmetal.800 hover:text-newGunmetal.50 text-xs text-newGunmetal.700 uppercase px-4 py-3 border border-newGunmetal.500 rounded-lg">
                                                     {filteredItem.featuredButtonLabel}
                                                 </button>
                                             </Link>
