@@ -142,7 +142,26 @@ const serviceItems = [
         buttonText:'Download Abstract',
         buttonHref:'/pdf/workshop03-abstract.pdf',
     },
-
+    {
+        id:7,
+        featuredID:0,
+        type:"banner",
+        number:"02",
+        featured:"true",
+        featuredHREF:"/technology",
+        featuredURL:"/ technology",
+        featuredButtonLabel:"See Our Technology",
+        featuredHeader:"Shot Show - Vegas 2023",
+        date:"2021-08-10",
+        title: "It’s a BIG DEAL!!!",
+        description: "Come see Fry Tech at Shot Show 2023 in Las Vegas on January 17-20th where we will be showing off our Brujeria technology! ",
+        description2: "Venetian Level 1 - Booth #40763",
+        src: '/image/banner-01.png',
+        srcThumbnail: '/image/banner-01.png',
+        isButtonActive:'true',
+        buttonText:'See Expo Details',
+        buttonHref:'https://shotshow.org/',
+    },
 ];
 
 export default serviceItems

@@ -17,7 +17,6 @@ const promoItems = [
         actionText: "As a leader in the industry, we are here to customize your firearm and make it uniquely yours!",
         buttonLabel: 'Contact',
     },
-
 ];
 
 export default promoItems

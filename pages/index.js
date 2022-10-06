@@ -1,13 +1,11 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
-import ClientLogos from "../components/client-logos";
 import { getSortedPostsData } from "../lib/posts";
-import Link from "next/link";
-import Date from "../components/date";
 import HeroIndex from "../components/hero_index"
 import Features from "../components/features";
 import Quote from "../components/quote";
 import Promo from "../components/promo";
+import Banner from "../components/banner";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
@@ -30,6 +28,7 @@ export default function Home({allPostsData}) {
         <title>{siteTitle}</title>
       </Head>
         <HeroIndex/>
+      <Banner  featured="true" type="banner"/>
         <Quote id={0}/>
         <Features  featured="true" type="technology"/>
         <Promo id={0} />
