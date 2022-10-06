@@ -16,14 +16,14 @@ export default function Technology() {
                 <Hero id={2}/>
             </header>
             <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.100 py-12">
-                Technology
-            </div>
-            <Service type="technology" subtype="technology"/>
-            <Quote id={3}/>
-            <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.100 py-12">
                 Patents
             </div>
             <Service type="technology" subtype="patent"/>
+            <Quote id={3}/>
+            <div className="flex flex-row justify-center font-bebasNeue text-5xl text-gray.700 bg-gray.100 py-12">
+                Technology
+            </div>
+            <Service type="technology" subtype="technology"/>
             <Promo id={1}/>
         </Layout>
     )
