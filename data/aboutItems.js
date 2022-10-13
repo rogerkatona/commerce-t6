@@ -4,7 +4,7 @@ const aboutItems = [
         activeID:0,
         isActive:"true",
         callOut: 'We are avid GUNCAD enthusiasts just like you!',
-        text: "We are avid GUNCAD enthusiasts just like you.  With over 30 years of experience, we research, design, build and customize gun parts, and now we are offering our services and technology to you!",
+        text: "We are avid GUNCAD enthusiasts just like you.  We research, design, build and customize gun parts, and now we are offering our services and technology to you!",
         src: "image/gun/gun-05.jpg",
     },
     {
