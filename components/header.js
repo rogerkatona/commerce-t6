@@ -20,7 +20,7 @@ export default function Header() {
             <div className="lg:flex lg:flex-row lg:justify-between lg:items-center lg:mx-auto lg:max-w-7xl py-6 xl:px-0 md:px-12 px-6">
             <section>
                     <Link href='/'>
-                        <a>
+                        <span>
                             <div className="flex flex-row items-center">
                                 <div className="">
                                     <img
@@ -30,7 +30,7 @@ export default function Header() {
                                     />
                                 </div>
                             </div>
-                        </a>
+                        </span>
                     </Link>
                 </section>
              <div>

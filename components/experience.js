@@ -14,7 +14,7 @@ export default function Experience() {
                         alt={'resume logo'}
                     />
                     <Link href='/pdf/rogerkatona-cv.pdf'>
-                        <a className='text-link hover:underline uppercase'>SEE RESUME</a>
+                        <span className='text-link hover:underline uppercase'>SEE RESUME</span>
                     </Link>
                 </div>
                 <div className="flex flex-col lg:mx-12 mx-6 lg:mt-0 mt-12 items-start justify-start">

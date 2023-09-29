@@ -29,7 +29,7 @@ export default function Features(props) {
                                     <div className="mb-3">
                                         <div className='text-gray.100 '>
                                             <Link href={filteredItem.featuredHREF}>
-                                                <a className='hover:underline uppercase text-xs'>{filteredItem.featuredURL}</a>
+                                                <span className='hover:underline uppercase text-xs'>{filteredItem.featuredURL}</span>
                                             </Link>
                                         </div>
 

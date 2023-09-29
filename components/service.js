@@ -32,11 +32,11 @@ export default function Service(props) {
                                     <p className="pt-2">{filteredItem.actionDescription}</p>
                                     <div className={`${filteredItem.isButtonActive === 'true'  ? 'block' : 'hidden'} pt-0`}>
                                         <Link href={filteredItem.buttonHref}>
-                                            <a
+                                            <span
                                                 target={"_blank"}
                                                 className="bg-newYellow.800 hover:bg-newYellow.900 hover:text-gray.100 text-xs text-gray.100 uppercase px-4 py-3 rounded-lg">
                                                 {filteredItem.buttonText}
-                                            </a>
+                                            </span>
                                         </Link>
                                     </div>
                                 </div>

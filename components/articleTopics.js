@@ -5,7 +5,7 @@ import Link from "next/link";
 const Topic = props => (
     <div className="flex flex-col">
         <Link href="/">
-            <a className="py-1 hover:underline text-link font-medium">{props.label}</a>
+            <span className="py-1 hover:underline text-link font-medium">{props.label}</span>
         </Link>
     </div>
 );

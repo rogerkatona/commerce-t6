@@ -101,9 +101,9 @@ export default function Blog({allPostsData}) {
                                 </div>
                                 <div className="pt-2 md:w-4/5">
                                     <Link href={`/posts/${id}`}>
-                                        <a>
+                                        <span>
                                             <div className='font-roboto text font-medium text-medRed.700 hover:underline truncate'>{title}</div>
-                                        </a>
+                                        </span>
                                     </Link>
                                     <div className='text-xs '>
                                         <Date dateString={date} />

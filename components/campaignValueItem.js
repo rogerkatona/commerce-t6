@@ -14,7 +14,7 @@ const Items = props => (
                 <div className="text-2xl text-white">{props.text}</div>
                 <div className="">
                     <Link href={props.referenceLink}>
-                        <a className='text-sand text-xs italic hover:underline '>View Source</a>
+                        <span className='text-sand text-xs italic hover:underline '>View Source</span>
                     </Link>
                 </div>
             </div>

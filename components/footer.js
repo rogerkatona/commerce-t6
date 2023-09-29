@@ -12,20 +12,20 @@ export default function Footer() {
         <footer className="flex flex-col justify-center md:items-center md:px-0 px-6 bg-medBlue.900 py-48 space-y-6">
          <section>
                 <Link href='/'>
-                    <a>
+                    <span>
                         <div className="flex flex-row items-center ">
                             <Link
                                 href='/'>
-                                <a>
+                                <span>
                                     <img
                                         src="/image/logo/logoName-fryTech.png"
                                         width={200}
                                         alt='Blue Prospect Logo'
                                     />
-                                </a>
+                                </span>
                             </Link>
                         </div>
-                    </a>
+                    </span>
                 </Link>
             </section>
 
